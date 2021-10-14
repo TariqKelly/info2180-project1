@@ -69,8 +69,9 @@ nav li{
 }
 
 .cards{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 80px;
     align-items: stretch;
     width: 100%;
 }
@@ -82,13 +83,13 @@ nav li{
     width: 100%;
     border-color: #E2E8F0;
     border-radius: 5px;
-    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.137);
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.137);
     padding: 20px;
     margin: 20px;
 }
 
 .card img{
-    width: 100%;
+    max-width: 100%;
 }
 .card-body{
     height: 50%;
@@ -103,4 +104,28 @@ nav li{
 
 .card-body p{
     margin-top: 0;
+}
+
+.testing{
+    background-color: #4A5568;
+    color: white;
+    padding: 100px;
+    margin: auto 15% auto 15%;
+}
+
+.testing-desciption{
+    float: left;
+    width: 60%;
+}
+.cta{
+    float: right;
+    background-color: #48BB78;
+    padding: 20px 45px 20px 45px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.cta a{
+    color: white;
+    text-decoration: none;
 }
