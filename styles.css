@@ -102,6 +102,11 @@ nav li{
     margin: 20px;
 }
 
+.card:hover{
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.103);
+    border-color: #d2d8e0;
+}
+
 .card img{
     max-width: 100%;
 }
@@ -192,7 +197,10 @@ nav li{
 }
 
 .newsletter .container {
-    width: 37%;
+    width: 50%;
+}
+.newsletter .container form {
+    text-align: center;
 }
 
 .newsletter h3{
@@ -206,7 +214,7 @@ nav li{
 .newsletter .btn{
     background-color: #5A67D8;
     color: white;
-    padding: 15px 30px 15px 30px;
+    padding: 18px 55px 18px 55px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -214,7 +222,7 @@ nav li{
 .newsletter input{
     border: none;
     border-radius: 5px;
-    padding: 15px 30px 15px 30px; 
+    padding: 18px 55px 18px 55px; 
 }
 
 footer{
